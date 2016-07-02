@@ -1,0 +1,14 @@
+.actions-panel {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+
+  &__next-phase, &__add-player {
+    height: 50%;
+  }
+
+  &__add-player .btn-block, &__next-phase .btn-block {
+    height: 100%;
+  }
+}

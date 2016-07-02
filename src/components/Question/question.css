@@ -1,0 +1,27 @@
+.question {
+
+}
+
+.question__text-input {
+     border-radius: 3.4px;
+     background-color: transparent;
+     border: solid 2px #7ab800;;
+     margin-bottom: 30px;
+     outline: none !important;
+ }
+
+.question__text-input .text-input--invalid {
+    border: solid 2px #dc008c;
+}
+
+.question__number, .question__label {
+    display: inline-block;
+}
+
+.question__arrow {
+    margin: 0 10px;
+}
+
+input {
+    color: white;
+}
